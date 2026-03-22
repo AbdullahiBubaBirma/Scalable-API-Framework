@@ -1,20 +1,15 @@
-Scalable API Framework
+# Scalable API Framework
 
-A lightweight, extensible framework built with **FastAPI** for developing scalable APIs.  
-This project demonstrates clean architecture, automated testing, and CI/CD integration with GitHub Actions.
+A lightweight, extensible framework built with **FastAPI** for developing scalable APIs. This project demonstrates clean architecture, automated testing, and CI/CD integration with GitHub Actions.
 
----
-
-🚀 Features
+## 🚀 Features
 - FastAPI application with modular design
 - Example endpoints (`/` and `/items/{id}`)
 - Pytest-based test suite
 - GitHub Actions workflow for continuous integration
 - Easy extensibility for new routes and services
 
----
-
-📂 Project Structure
+## 📂 Project Structure
 Scalable-API-Framework/
 ├── main.py              # FastAPI app entrypoint
 ├── requirements.txt     # Project dependencies
@@ -22,15 +17,13 @@ Scalable-API-Framework/
 │   └── test_app.py
 └── README.md            # Project documentation
 
----
-
-⚙️ Installation
+## ⚙️ Installation
 Clone the repository and install dependencies:
-
 ```bash
 git clone https://github.com/AbdullahiBubaBirma/Scalable-API-Framework.git
 cd Scalable-API-Framework
 pip install -r requirements.txt
+
 
 ▶️ Running the App
 Start the FastAPI server locally:
