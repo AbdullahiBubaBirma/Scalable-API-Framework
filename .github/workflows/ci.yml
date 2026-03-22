@@ -32,4 +32,4 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: pytest -q tests/
+        run: PYTHONPATH=. pytest -q tests/
