@@ -8,5 +8,5 @@ def read_root():
 
 @app.get("/items/{item_id}")
 def read_item(item_id: int):
-    return {"id": item_id, "name": f"Item {item_id}"
+    return {"id": item_id, "name": f"Item {item_id}"}
 
